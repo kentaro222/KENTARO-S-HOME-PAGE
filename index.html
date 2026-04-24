@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KENTARO'S HOME PAGE</title>
+    <style>
+        body {
+            background-color: #0d0d0d; 
+            color: #eeeeee;
+            font-family: "MS UI Gothic", "MS PGothic", sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 26px;
+            color: #ffffff;
+            /* 発光（text-shadow）を削除してまぶしさを軽減 */
+            border: 2px solid #ffffff;
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #000000;
+            letter-spacing: 2px;
+        }
+
+        .marquee-container {
+            background: #000000;
+            color: #ffffff;
+            border-top: 1px solid #333333;
+            border-bottom: 1px solid #333333;
+            font-weight: bold;
+            padding: 8px;
+            margin: 20px auto;
+            max-width: 1000px;
+        }
+
+        section {
+            border: 1px solid #444444;
+            background-color: #1a1a1a;
+            padding: 25px 20px 20px 20px;
+            margin-bottom: 40px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h2 {
+            font-size: 16px;
+            margin-top: -40px;
+            background-color: #ffffff;
+            color: #000000;
+            display: inline-block;
+            padding: 2px 15px;
+            letter-spacing: 1px;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .link-item {
+            background-color: #262626;
+            border: 1px solid #444444;
+            text-decoration: none;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            transition: all 0.2s;
+        }
+
+        .link-item:hover {
+            background-color: #333333;
+            border-color: #ffffff;
+            transform: scale(1.02);
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 18px;
+            color: #00bbff;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+
+        .description {
+            font-size: 14px;
+            font-weight: bold;
+            color: #cccccc;
+            line-height: 1.5;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 12px;
+            color: #666666;
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>KENTARO'S HOME PAGE</h1>
+</header>
+
+<div class="marquee-container">
+    <marquee scrollamount="6">>> 最新情報：作成したツールやゲームを公開するためのホームページを作りました。ゆっくりしていってね。</marquee>
+</div>
+
+<section id="tools">
+    <h2>🛠 TOOLS</h2>
+    <div class="dashboard">
+        <a href="https://kentaro222.github.io/Stage-Time-Toolkit/" class="link-item" target="_blank">
+            <span class="title">Time Tools</span>
+            <div class="description">高機能なストップウォッチとタイマー。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Stage-Tools/" class="link-item" target="_blank">
+            <span class="title">Stage Tools</span>
+            <div class="description">舞台での様々な計算に役立つツール集。</div>
+        </a>
+        <a href="https://kentaro222.github.io/QR-Code-Generation-and-Saver/" class="link-item" target="_blank">
+            <span class="title">QRコード作成君</span>
+            <div class="description">QRコードを作成して画像として保存。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Today-Tomorrow-Weather/" class="link-item" target="_blank">
+            <span class="title">大田区の今日明日の天気</span>
+            <div class="description">主に大田区の天気情報を確認できるツール。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Image-editing-tools/" class="link-item" target="_blank">
+            <span class="title">Image editing Tool</span>
+            <div class="description">簡易的な画像加工がブラウザ上ですぐに可能。</div>
+        </a>
+        <a href="https://kentaro222.github.io/DotFixer/" class="link-item" target="_blank">
+            <span class="title">DotFixer</span>
+            <div class="description">ドット絵の1ピクセルにこだわる人のための微調整ツール。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Air-fryer-conversion-tool" class="link-item" target="_blank">
+            <span class="title">エアーフライヤー変換ツール</span>
+            <div class="description">電子レンジやオーブンの温度や調理時間をエアフライヤー用に変換。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Pokemon-Offense-and-Defense-Type-Checker" class="link-item" target="_blank">
+            <span class="title">ポケモンタイプ相性チェッカー</span>
+            <div class="description">ポケモン対戦のためのタイプ相性確認ツール。</div>
+        </a>
+    </div>
+</section>
+
+<section id="art">
+    <h2>🎧 ART & VISUALS</h2>
+    <div class="dashboard">
+        <a href="https://kentaro222.github.io/PIXEL-TAROT/" class="link-item" target="_blank">
+            <span class="title">PIXEL TAROT</span>
+            <div class="description">ドット絵のカードが導く、あなたの運勢。</div>
+        </a>
+        <a href="https://kentaro222.github.io/CHILL-WALK-Synthwave/" class="link-item" target="_blank">
+            <span class="title">CHILL WALK Synthwave</span>
+            <div class="description">シンセウェイヴな夜を散歩する、癒やしの視覚体験。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Pixel-Mascot-Music-Visualizer/" class="link-item" target="_blank">
+            <span class="title">Pixel Mascot Music Visualizer</span>
+            <div class="description">音楽を可視化する、ドットキャラのビジュアライザー。</div>
+        </a>
+    </div>
+</section>
+
+<section id="games">
+    <h2>🎮 GAMES</h2>
+    <div class="dashboard">
+
+        <a href="https://kentaro222.github.io/The-Big-Cheese-Single-Player/" class="link-item" target="_blank">
+            <span class="title">THE BIG CHEESE</span>
+            <div class="description">入札によって仕事を勝ち取っていくゲーム。CPU対戦。</div>
+        </a>
+        <a href="https://kentaro222.github.io/4nin-uchi-Suzume-jong/" class="link-item" target="_blank">
+            <span class="title">4人打ち すずめ雀</span>
+            <div class="description">手軽に遊べる超簡易麻雀。CPU対戦。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Retro-VideoPoker/" class="link-item" target="_blank">
+            <span class="title">レトロビデオポーカー</span>
+            <div class="description">クラシックな雰囲気で楽しむビデオポーカー。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Regicide-Single-Player/" class="link-item" target="_blank">
+            <span class="title">レジサイド</span>
+            <div class="description">トランプの絵札を倒す高難易度ソロプレイゲーム。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Synth-Zooo/" class="link-item" target="_blank">
+            <span class="title">Synth-Zooo</span>
+            <div class="description">ズーキーパー風の3マッチパズルゲーム。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Derby-for-Mice/" class="link-item" target="_blank">
+            <span class="title">ネズミダービー</span>
+            <div class="description">どのネズミが勝つか？白熱のダービーレース。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Pixel-Run/" class="link-item" target="_blank">
+            <span class="title">ピクセルラン</span>
+            <div class="description">障害物を避けて走り続ける、シンプルアクション。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Ghost-Stairs/" class="link-item" target="_blank">
+            <span class="title">オバケの階段</span>
+            <div class="description">一つの画面でみんなで遊べる簡単スゴロクゲーム。</div>
+        </a>
+        <a href="https://kentaro222.github.io/Monopoly-Ultimate-Bank/" class="link-item" target="_blank">
+            <span class="title">モノポリーアルティメット銀行</span>
+            <div class="description">盤面と駒さえ用意すれば、一つの端末だけでモノポリーが多人数で遊べるツール。</div>
+    </div>
+</section>
+
+<footer>
+    <p>Created by KENTARO / Organized by AI / Best viewed in the Dark</p>
+</footer>
+
+</body>
+</html>
